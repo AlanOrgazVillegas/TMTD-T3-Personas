@@ -47,7 +47,6 @@ namespace TMTD_T3_Personas.ViewModels
             set { _mensaje = value; OnPropertyChanged(); }
         }
 
-        // Agregar esta propiedad después de Mensaje
         private string _rutaBD = "";
         public string RutaBD
         {
